@@ -6,12 +6,12 @@ body {
   color: #8c8c8b;
   font-family: sans-serif;
   font-size: 0.9rem;
+  line-height: 1.5;
   user-select: none;
   -moz-user-select: none;
 }
 
 .top {
-  line-height: 1.5;
   text-align: center;
 }
 
@@ -45,14 +45,12 @@ body {
   font-size: 1rem;
   font-weight: 600;
   color: #ddd;
-  margin: 0em 0em .35em 0em;
 }
 
 a {
   text-decoration: none;
   color: #8c8c8b;
   display: block;
-  margin-bottom: .5em;
 }
 
 a:hover {
