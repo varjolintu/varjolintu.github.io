@@ -11,17 +11,17 @@ body {
   -moz-user-select: none;
 }
 
-.top {
-  text-align: center;
-}
-
 .container {
   width: 100%;
-  height: 80vh;
+  margin-top: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.top {
+  text-align: center;
 }
 
 .links {
@@ -55,4 +55,25 @@ a {
 
 a:hover {
   color: #ccc;
+}
+
+@media screen and (min-width: 520px) and (max-width: 760px) {
+  .container {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 120px) and (max-width: 520px) {
+  .container {
+    margin-top: 0;
+  }
+
+  .links {
+    flex-direction: column;
+  }
+
+  .square {
+    height: 100%;
+    padding: 1.0em;
+  }
 }
